@@ -1,0 +1,50 @@
+{
+    "name": "ZenNote",
+    "short_name": "znte",
+    "icons": [
+        {
+            "src": "/zennote/icons/imr_part_48x48.png",
+            "type": "image/png",
+            "sizes": "48x48"
+        },
+        {
+            "src": "/zennote/icons/imr_part_96x96.png",
+            "type": "image/png",
+            "sizes": "96x96"
+        },
+        {
+            "src": "/zennote/icons/imr_part_144x144.png",
+            "type": "image/png",
+            "sizes": "144x144"
+        },
+        {
+            "src": "/zennote/icons/imr_part_192x192.png",
+            "type": "image/png",
+            "sizes": "192x192"
+        },
+        {
+            "src": "/zennote/icons/imr_part_256x256.png",
+            "type": "image/png",
+            "sizes": "256x256"
+        },
+        {
+            "src": "/zennote/icons/imr_part_384x384.png",
+            "type": "image/png",
+            "sizes": "384x384"
+        },
+        {
+            "src": "/zennote/icons/imr_part_512x512.png",
+            "type": "image/png",
+            "sizes": "512x512"
+        }
+    ],
+    "start_url": "/zennote/index.html",
+    "scope": ".",
+    "display": "standalone",
+    "background_color": "#fff",
+    "theme_color": "#3F51B5",
+    "description": "Yet another note-taking app",
+    "dir": "ltr",
+    "lang": "de-DE",
+    "orientation": "portrait-primary"
+}
