@@ -16,11 +16,11 @@ export default function RootLayout({
 }: {
     children: React.ReactNode
 }) {
-    // useEffect(() => {
-    //     if ('serviceWorker' in navigator) {
-    //         navigator.serviceWorker.register(`/zennote/sw.js`)
-    //     }
-    // }, [])
+    useEffect(() => {
+        if ('serviceWorker' in navigator) {
+            navigator.serviceWorker.register(`/zennote/sw.js`)
+        }
+    }, [])
     return (
         <html lang="en">
             <head>
